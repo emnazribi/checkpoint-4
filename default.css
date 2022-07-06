@@ -61,6 +61,16 @@ h7{font-size: 15px;}
     border-bottom:1px solid var(--bordercolor);
     overflow: auto;
 }
+#space{ margin-left: 140%;}
+
+.multi-bg-example {
+    width: 100%;
+    height: 400px;
+    background-image: url(firefox.png), url(bubbles.png), 
+                      linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: bottom right, left, right;
+  }
 
 .s2{
     background-color:var(--secondarycolour) ;
